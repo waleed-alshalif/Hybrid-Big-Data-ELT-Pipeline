@@ -1,0 +1,10 @@
+# تجاهل ملفات البيانات الضخمة
+data/*.csv
+!data/sample_orders.csv
+
+# تجاهل بيئات بايثون ومخلفات التشغيل
+__pycache__/
+*.pyc
+.env
+.venv/
+env/

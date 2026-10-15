@@ -1,0 +1,28 @@
+{
+    "run_id": "9c82498c-edbf-4f2b-8b28-40b51946fcac",
+    "file_name": "sample_orders.csv",
+    "file_size_mb": 2.09,
+    "used_engine": "python_batch",
+    "read_rows": 5000,
+    "loaded_raw": 5000,
+    "count_valid": 0,
+    "count_corrected": 4776,
+    "count_quarantine": 224,
+    "count_inserted": 4737,
+    "count_updated": 39,
+    "count_unchanged": 0,
+    "seconds_elapsed": 1.45,
+    "throughput": 3441.7,
+    "engine_details": {
+        "batch_size": 1000,
+        "partitions": null
+    },
+    "counts_case_error": {
+        "ID_CUSTOMER_MISSING": 70,
+        "JSON_ITEMS_CORRUPTED": 68,
+        "ID_ORDER_MISSING": 41,
+        "ITEMS_EMPTY": 39,
+        "DATE_IMPOSSIBLE_INVALID": 41
+    },
+    "consistency_check": true
+}

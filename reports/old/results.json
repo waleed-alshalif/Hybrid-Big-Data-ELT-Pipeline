@@ -1,0 +1,22 @@
+{
+    "run_id": "aaaff5c2-e005-4925-9a06-e99eef08439b",
+    "file_name": "spark_1m.csv",
+    "file_size_mb": 418.55,
+    "used_engine": "pyspark",
+    "read_rows": 1000000,
+    "loaded_raw": 1000000,
+    "count_valid": 7090,
+    "count_corrected": 992910,
+    "count_quarantine": 0,
+    "count_inserted": 986061,
+    "count_updated": 13939,
+    "count_unchanged": 0,
+    "seconds_elapsed": 429.58,
+    "throughput": 2327.86,
+    "engine_details": {
+        "batch_size": null,
+        "partitions": 4
+    },
+    "counts_case_error": {},
+    "consistency_check": true
+}
